@@ -1,8 +1,28 @@
-# 모든 파일 무시
-*
+# Visual Studio 임시 파일
+.vs/
+ipch/
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
 
-# .cpp 파일만 추적
-!*.cpp
+# 빌드 결과물
+Debug/
+Release/
+x64/
+x86/
+[Bb]in/
+[Oo]bj/
 
-# .gitignore 파일 자체는 추적
-!.gitignore
+# 프로젝트 파일
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+
+# 기타 임시 파일
+*.log
+*.tlog
+*.lastbuildstate
+*.idb
+*.pdb
