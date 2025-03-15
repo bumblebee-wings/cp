@@ -1,28 +1,66 @@
-# Visual Studio 임시 파일
-.vs/
-ipch/
-*.sdf
-*.opensdf
-*.VC.db
-*.VC.opendb
 
-# 빌드 결과물
+# But not these files...
+!*.cpp
+!*.h
+!*.hpp
+!.gitignore
+!README.md
+!LICENSE
+!CMakeLists.txt
+!Makefile
+
+# Ignore build directories
+build/
 Debug/
 Release/
 x64/
 x86/
-[Bb]in/
-[Oo]bj/
+bin/
+obj/
 
-# 프로젝트 파일
+# Ignore Visual Studio specific files
+.vs/
+*.user
+*.userosscache
+*.suo
+*.sln
 *.vcxproj
 *.vcxproj.filters
 *.vcxproj.user
-*.sln
+*.vcproj
+*.vcproj.filters
+*.vcproj.user
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+*.VC.VC.opendb
 
-# 기타 임시 파일
-*.log
-*.tlog
-*.lastbuildstate
-*.idb
-*.pdb
+# Ignore compiler generated files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.lib
+*.a
+*.out
+*.app
+
+# Ignore temporary files
+*.tmp
+*.temp
+*.swp
+*~
+
+# Ignore IDE specific files
+.idea/
+.vscode/
+*.code-workspace
+
+*.txt
